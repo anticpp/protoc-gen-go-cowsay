@@ -5,5 +5,9 @@ package example
 // "protoc-gen-go-cowsay/api/example"
 
 func (x *Hello) Cowsay() string {
-	return `Cowsay cowsay ...`
+	say, _ := cowsay.Say(
+		cowsay.Type("default"),
+		cowsay.BallonWidth(40),
+	)
+	return say
 }
