@@ -1,0 +1,5 @@
+#!/bin/bash
+
+protoc api/example/hello.proto \
+        --go_out ./ --go_opt=paths=source_relative \
+        --go-cowsay_out ./ --go-cowsay_opt=paths=source_relative

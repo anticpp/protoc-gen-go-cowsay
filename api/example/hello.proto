@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package example;
+
+option go_package = "protoc-gen-go-cowsay/api/example";
+
+message Hello {
+    string greeting = 1;
+}
