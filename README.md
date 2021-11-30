@@ -1,7 +1,8 @@
 Demonstrate creating a protoc plugin(`go-cowsay`) to generate Go code with `protogen`. Every message has a method named `CowSay()`, which prints a `cowsay` message.
 
 ```
-______________
+./bin/cowsay
+_____________
 < Hello World! >
  --------------
         \   ^__^
