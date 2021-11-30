@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	m := example.Hello{Greeting: "Hello"}
+	m := example.Hello{Greeting: "Hello World!"}
 	fmt.Println(m.Cowsay())
 }
